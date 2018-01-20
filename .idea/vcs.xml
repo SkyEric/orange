@@ -3,5 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/library" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/material-spinner-1.0.5" vcs="svn" />
   </component>
 </project>

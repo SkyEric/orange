@@ -1,21 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.well.orange">
+<manifest package="com.well.orange"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/app_icon"
+        android:icon="@mipmap/logo"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        android:supportsRtl="true">
+        <activity android:name="com.well.orange.PullToRefreshUseActivity"></activity>
+        <activity android:name="com.well.orange.HomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.well.orange.AnimationUseActivity"></activity>
+        <activity android:name="com.well.orange.HeaderAndFooterUseActivity"></activity>
+        <activity android:name="com.well.orange.SectionUseActivity"></activity>
+        <activity android:name="com.well.orange.MultipleItemUseActivity"></activity>
+        <activity android:name="com.well.orange.EmptyViewUseActivity"></activity>
+        <activity android:name="com.well.orange.ItemDragAndSwipeUseActivity"></activity>
     </application>
 
 </manifest>

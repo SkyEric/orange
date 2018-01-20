@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">orange</string>
+    <string name="no_data">There is no data</string>
 </resources>
